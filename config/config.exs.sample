@@ -1,0 +1,6 @@
+use Mix.Config
+
+# Pass in your credentials json downloaded from your GCE account.
+config :goth,
+  json: "path/to/creds.json" |> File.read!
+
